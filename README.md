@@ -26,6 +26,20 @@ npm run dev
 
 3. Open the local URL in your browser.
 
+## Testing
+
+Run the unit tests with:
+
+```bash
+npm run test
+```
+
+For interactive watch mode:
+
+```bash
+npm run test:watch
+```
+
 ## Copilot customization
 
 - Custom instructions are defined in `.github/copilot-instructions.md`

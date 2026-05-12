@@ -129,6 +129,7 @@ function App() {
                   type="button"
                   className={`task-check ${task.completed ? 'checked' : ''}`}
                   aria-pressed={task.completed}
+                  aria-label={task.completed ? `Mark task ${task.title} as pending` : `Mark task ${task.title} as completed`}
                   onClick={() => toggleTask(task.id)}
                 >
                   <span>{task.completed ? '✓' : ''}</span>
